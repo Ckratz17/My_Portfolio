@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: radial-gradient(rgb(208, 234, 208), rgb(167, 252, 167));
+}
+
+header {
+    padding-top: 15px;
+    background-image: linear-gradient(rgb(177, 246, 246), rgb(5, 93, 93));
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: monospace;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: goldenrod;
+    border-bottom: 2px dotted;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    font-size: 25px;
+    font-family: fantasy;
+    padding: 5px 35px;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    cursor: grab;
+}
+
+.image {
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    height: 500px;
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.about-me h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    border-bottom: 2px dotted;
+}
+
+p { 
+    margin: 10px 125px;
+    font-size: 20px;
+}
+
+.work {
+    height: 716px;
+}
+
+div h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    border-bottom: 2px dotted;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 16px;
+}
+
+.css {
+    height: 200px;
+    width: -webkit-fill-available;
+    background-image: url(css-placeholder.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+}
+
+.css:hover {
+    border: 2px solid yellow;
+    opacity: 75%;
+    color: red;
+}
+
+.css h1 {
+    font-size: 20px;
+    padding-right: 15px;
+    border-bottom: none;
+}
+
+.html {
+    height: 230px;
+    background-image: url(html-placeholder.jpg);
+    display: flex;
+    flex: 1;
+    align-items: end;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+}
+
+.html:hover {
+    border: 2px dashed orange;
+    opacity: 75%;
+    color: blue;
+}
+
+.html h1 {
+    font-size: 20px;
+    padding-right: 15px;
+    border-bottom: none;
+}
+
+.java {
+    height: 230px;
+    background-image: url(java-placeholder.jpg);
+    display: flex;
+    flex: 1;
+    align-items: end;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+}
+
+.java:hover {
+    border: 2px dotted purple;
+    opacity: 75%;
+    color: green;
+}
+
+.java h1 {
+    font-size: 20px;
+    padding-right: 15px;
+    border-bottom: none;
+}
+
+.contacts {
+    background-image: linear-gradient(rgb(177, 246, 246), rgb(5, 93, 93));
+}
+
+.contacts h1 {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+     margin: 10px 0px; 
+    }
+}
