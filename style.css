@@ -93,7 +93,7 @@ div h1 {
 .css {
     height: 200px;
     width: -webkit-fill-available;
-    background-image: url(css-placeholder.jpg);
+    background-image: url(./Assets/css-placeholder.jpg);
     background-size: cover;
     display: flex;
     align-items: end;
@@ -115,7 +115,7 @@ div h1 {
 
 .html {
     height: 230px;
-    background-image: url(html-placeholder.jpg);
+    background-image: url(./Assets/html-placeholder.jpg);
     display: flex;
     flex: 1;
     align-items: end;
@@ -137,7 +137,7 @@ div h1 {
 
 .java {
     height: 230px;
-    background-image: url(java-placeholder.jpg);
+    background-image: url(./Assets/java-placeholder.jpg);
     display: flex;
     flex: 1;
     align-items: end;
